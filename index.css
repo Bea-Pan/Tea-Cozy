@@ -1,0 +1,166 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: 	 #fff0e6;
+    text-shadow: 0 0 3px seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    /*justify-content: space-between;*/
+    height: 69px;
+    /*position: fixed;*/
+    position:fixed;
+    top: 0; /*so it stays on the very top*/
+    
+    background-color: black;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.navbar {
+   margin-left: auto;
+    
+}
+
+#flex-end {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.navbar a {
+    text-decoration: underline;
+}
+ /*BANNER*/
+
+.banner {
+    height: 700px;
+    display:flex;
+    align-items: center;
+    width: 1200px;  
+    margin:auto;
+    margin-top:69px;
+    background-image: url(./images/img-mission-background.webp);
+}
+
+.banner h2 {
+    margin-bottom: 0;
+    padding: 10px 0 20px 0;
+    background-color: black;
+    width: 1200px; 
+}
+
+.banner h4 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    background-color: black;
+    width: 1200px; 
+}
+
+/* TEA SELECTION - PICS */
+
+.selection {
+    width: 1000px;
+    margin: auto; 
+}
+
+.selection h2, h4 {
+    background-color: black;
+    width: 1000px;
+} 
+
+.pics-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    justify-content: center;
+}
+
+.tea-pics {
+    height: 200px;
+    width: 300px;
+}
+
+#first-pic {
+    margin-left: 0;
+}
+
+#third-pic {
+    margin-right:0;
+}
+
+.fig-pics {
+    margin-right: 0;
+    margin-left: 30px;
+
+}
+
+figcaption {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+/* LOCATIONS */
+
+.locations {
+    background-image: url(./images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;  
+    margin:auto;
+}
+
+.locations h2 {
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+.address-parent {
+    display:flex;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.address {
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    line-height: 2;
+}
+
+/* FOOTER */
+
+footer {
+    
+}
+
+#contact {
+    height: 200px;
+}
+
+#copyright {
+    display: flex;
+}
+
+#copyright h5 {
+    margin-right: auto; 
+    padding-left:20px;
+    margin-top: 0;
+}
