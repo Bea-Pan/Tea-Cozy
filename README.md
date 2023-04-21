@@ -8,5 +8,13 @@ The goal of this project was to build a website following the instructions from 
 ## About
 Tea Cozy is a basic HTML/CSS website recreated from the following design spec:
 
+![img-tea-cozy-redline](https://user-images.githubusercontent.com/124626130/233629611-25ea6b53-50a5-407c-9ac5-a68807735140.jpg)
 
-<img src="D:\IT Career Switch coding course\CodeCademy\Projects\Tea Cozy\images\img-tea-cozy-redline.jpg" style="height: 100px; width:100px;"/>
+## Technologies used
+* HTML
+* CSS
+* Git, GitHub and Git bash
+
+## Live Website
+
+Tea Cozy website can be viewed [here](https://bea-pan.github.io/Tea-Cozy/)
